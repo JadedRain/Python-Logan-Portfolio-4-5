@@ -27,5 +27,5 @@ print('The ' + adjec1 + ' ' + noun1 + ' Decided to buy some ' + plural_noun1 +
       ' Grabbing some ' + plural_noun2 + ' before going back home.')
 
 input()
-
+#added in git
 
