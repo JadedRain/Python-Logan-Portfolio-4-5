@@ -6,6 +6,7 @@
 import time
 import calendar
 
+
 def gm_time():
   while True:
   ##1 Get the total seconds since midnight, January 1, 1970
