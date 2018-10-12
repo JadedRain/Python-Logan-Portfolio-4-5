@@ -26,9 +26,7 @@ def current_time():
   ##7 Get current hour 
     current_hour = hours%24
 
-    #set time zone
-    current_hour = current_hour - 6
-    #convert it from military to standard
+    
     if current_hour >=12:
       tag = "PM"
     else:
@@ -40,7 +38,6 @@ def current_time():
       beep()
       
     return timex
-x = current_time()
 
 def beep():
   winsound.Beep(5000,8000)
@@ -55,6 +52,7 @@ def alarm(*args):
   global t
   t = str(input("Please enter AM or PM"))
   t = t.upper()
+
   
   alarm_time = str(h)+":"+str(m)+":"+str(s)+t
   return alarm_time
@@ -70,6 +68,7 @@ def show_time():
   time = current_time()
   txt.set(time)
   root.after(1000, show_time)
+  
 
 root = Tk()
 root.attributes("-fullscreen", False)
@@ -82,7 +81,6 @@ fnt = font.Font(family='Helvetica', size=60,weight='bold')
 txt = StringVar()
 lbl = ttk.Label(root,textvariable=txt,font=fnt,foreground="Green",background="Black")
 lbl.place(relx=0.5,rely=0.5,anchor=CENTER)
-set_alarm =(alarm)
 root.mainloop()
 
 
