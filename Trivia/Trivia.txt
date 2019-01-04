@@ -1,0 +1,81 @@
+Title of the quiz must be the first line(Name,date,title)
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
+Category(Strings,indexing etc.)
+question must be one line anywhere you need a new line/ in the text you will insert a "/"
+answer option 1
+answer option 2
+answer option 3
+answer option 4
+correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
+explanation
