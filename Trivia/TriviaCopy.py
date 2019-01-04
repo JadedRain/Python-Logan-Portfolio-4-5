@@ -80,7 +80,7 @@ def main():
       print(str(i)+ answersList[i])
 
     answer = input("Enter answer here: ")
-    if answer == correctAnswer:
+    if answer == correct:
       print("Correct, great Job!")
       score+=1
     else:
