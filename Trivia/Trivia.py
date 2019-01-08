@@ -1,8 +1,8 @@
-
 #Logan Douglas
 #1/2/2019
 #Trivia Game
-#
+#This is a creation of a trivia game that will ask the user
+#10 questions 
 
 
 
@@ -88,7 +88,7 @@ def main():
   while category:
 
     #Displaying the category and question
-    print(category)
+  print(category)
     print(question)
     
     #Displaying each possible answer
@@ -97,7 +97,7 @@ def main():
 
     #Getting the answer from the user and determining whether it's true or false
     answer = input("Enter answer here: ")
-    if answer == correctAnswer:
+    if answer.lower() == correctAnswer:
       print("Correct, great Job!")
       score+=1
     else:
