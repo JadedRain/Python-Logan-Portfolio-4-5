@@ -11,12 +11,18 @@ import sys
 
 #Define the funtion to open a file
 def openFile(theFile,mode):
+
+  #Try to open the file if it exsists
   try:
     tryFile = open(theFile,mode)
+    
+  #If the file was not able to be opened tell the user and leave
   except IOError as e:
     print("Unable to open the file",theFile,"Error Found:",e)
     input("Press the enter key to exit.")
     sys.exit()
+
+  #Return the file if there is no errors
   else:
     return tryFile
 
@@ -61,24 +67,35 @@ def showTitle(title):
 
 #Define the main function
 def main():
-  file = "r_file.txt"
+  #Declaring the file name and opening the file
+  file = "Trivia.txt"
   theFile = openFile(file, "r")
 
+  #Getting the title for the trivia
   title = nextLine(theFile)
 
+  #Display title to user
   showTitle(title)
 
+  #Creating the user score
   score = 0
 
+  #Getting the block cor each question
   category, question, answersList, correctAnswer, explanation = nextBlock(theFile)
 
+  #Giving the user each question and reciving an answer
+  #while there are still questions left
   while category:
+
+    #Displaying the category and question
     print(category)
     print(question)
-
+    
+    #Displaying each possible answer
     for i in range(4):
-      print(str(i)+ answersList[i])
+      print(answersList[i])
 
+    #Getting the answer from the user and determining whether it's true or false
     answer = input("Enter answer here: ")
     if answer == correctAnswer:
       print("Correct, great Job!")
@@ -86,11 +103,17 @@ def main():
     else:
       print("Incorrect, better luck next time!")
 
+    #Tells the user why an answer was correct and updates score
     print(explanation)
-    print(score)
+    print("Score:",score,"\n")
 
+    #Used to check if there is still a question for the user to answer
     category, question, answersList, correctAnswer, explanation = nextBlock(theFile)
 
+  #Displaying the user's score and an end message
+  print("Your final score was,",score)
+  print("Thank you for playing!")
+  input("[Press Enter to Quit]")
     
 main()
 

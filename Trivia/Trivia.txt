@@ -1,81 +1,81 @@
-Title of the quiz must be the first line(Name,date,title)
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
-Category(Strings,indexing etc.)
-question must be one line anywhere you need a new line/ in the text you will insert a "/"
-answer option 1
-answer option 2
-answer option 3
-answer option 4
-correct answer to question be suer to matches how the user will respond(ex: 1,2,3,4 or a,b,c,s)
-explanation
+Logan Douglas 1.5.19 Trivia
+Category: Strings
+1.)What character do you use in order /to create a new line
+a. "\n"
+b. "newline"
+c. "n"
+d. "\new"
+a
+This is the correct answer because it must go inside /a string and have a backslash instead of a /forward slash.
+Category: Integer
+2.) What must you do when converting a string to an integer?
+a. int.()
+b. int
+c. int() 
+d. integer
+c
+The syntax when converting a digit in a string to an int value you must have int()/with what you want to convert to a string inside the/parentheses.
+Category: Indexing
+3.) You use what set of the following is used when trying to get a section of something?
+a. {}
+b. []
+c. () 
+d. <>
+b
+You always use [] when dealing with indexes.
+Category: Syntax
+4.) What happens if you have a syntax error when trying to run code?
+a. The code will give you an error without running
+b. The code will fix itself and run
+c. The code will demand rewards before running
+d. The code will always run no matter what
+a
+The code will say that there is an error without running unless you use a try statement to catch it.
+Category: Strings
+5.) What statement is used to display output to the screen?
+a. output()
+b. Print()
+c. please
+d. print()
+d
+When you write the statement print() it will print out to the screen, it must be in lowercase.
+Category: Functions
+6.) What do you have to do in order to delcare the function?
+a. func
+b. def
+c. x == function
+d. alt+4
+b
+You use def and then the name of the funtion to declare it.
+Category:Syntax
+7.) Which of the following would cause a syntax error?
+a. Improper indenting
+b. Trying to use a variable that hasn't been declared
+c. printing an integer
+d. Trying to eat a cheese sandwich while you type your code
+b
+You can't use a variable before it was declared or it will cause an error.
+Category: Loops
+8.) Which kind of loop will run through a determined number of times?
+a. While loop
+b. Hula loop
+c. For loop
+d. Fruit loop
+c
+A for loop will run through a certain number of times determined by the programmer.
+Category: Integer
+9.) Which of the following is considered an integer value?
+a. "s"
+b. "21"
+c. 2.1
+d. 8
+d
+The number 8 is the only one that is classified as an int because it 2.1 is a float and "21" is in a string.
+Category: Loops 
+10.) Which loop will run through until a condition is met?
+a. For loop
+b. Nested loop
+c. While loop
+d. May I have the loops
+c
+A while loop will continue until a condition inside the loop is not met
