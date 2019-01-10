@@ -88,7 +88,7 @@ def main():
   while category:
 
     #Displaying the category and question
-  print(category)
+    print(category)
     print(question)
     
     #Displaying each possible answer
