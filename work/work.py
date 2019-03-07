@@ -1,16 +1,3 @@
-score1 = input("Score")
-score2 = input("Score")
-score3 = input("Score")
-score4 = input("score")               
-score5 = input("score")
-sum1 = int(score1) + int(score2) + int(score3) + int(score4) + int(score5)
-avg = sum1/5
-print(avg)
-
-
-
-
-
 adjec1 = input("Adjective ")
 noun1 = input("Noun ")
 plural_noun1 = input("Plural noun ")
